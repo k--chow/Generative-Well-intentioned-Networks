@@ -14,13 +14,13 @@ Note that there are some differences in the paper and my code which my account f
 - We normalize data -1 to 1 to use a tanh rather than a sigmoid in the generator
 - We use batch norm in the generator (from my limited experience trains faster) and layer normalization in the critic ([noted in the original WGAN-GP paper](https://arxiv.org/abs/1704.00028))
 
-Code is referenced and inspired from (WGAN-GP) https://github.com/eriklindernoren/Keras-GAN/blob/master/wgan_gp/wgan_gp.py and (tensorflow probability BNN)https://github.com/tensorflow/probability/blob/master/tensorflow_probability/examples/bayesian_neural_network.py
+Code is referenced and inspired from (WGAN-GP) https://github.com/eriklindernoren/Keras-GAN/blob/master/wgan_gp/wgan_gp.py and (tensorflow probability BNN) https://github.com/tensorflow/probability/blob/master/tensorflow_probability/examples/bayesian_neural_network.py
 
 
 
 
 # References
 
-[1] GWIN paper https://papers.nips.cc/paper/9467-generative-well-intentioned-networks
-[2] WGAN-GP paper https://arxiv.org/abs/1704.00028
+- [1] GWIN paper https://papers.nips.cc/paper/9467-generative-well-intentioned-networks
+- [2] WGAN-GP paper https://arxiv.org/abs/1704.00028
 
